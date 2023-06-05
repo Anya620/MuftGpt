@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muft Gpt - Login</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <a href="#" class="MuftGpt">Muft Gpt</a> 
+
+       <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <button type="button" class="btnLogin-popup">Login</button>
+       </ul>   
+    </header>
+
+    <div class="container">
+        <div class="main-box login">
+            <h1>Login</h1>
+            <form action="/login" method="POST"> <!-- Update the action attribute -->
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" name="email" required> <!-- Add name attribute for email input -->
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                    <input type="password" name="password" required> <!-- Add name attribute for password input -->
+                    <label>Password</label>
+                </div>
+
+                <div class="check">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="">Forget Password</a>
+                </div>
+                
+                <button type="submit" class="main-btn">Login</button>
+
+                <div class="register">
+                    <p>Dont have an account?<a href="#" class="register-link">Register Now!</a></p>
+                </div>
+            </form>
+        </div>
+
+        <span class="close-icon">
+            <div class="bx bx-x"></div>
+        </span>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
