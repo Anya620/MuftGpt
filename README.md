@@ -4,9 +4,6 @@ MuftGPT is a web application functions similarly to a chatbot
 
 The current version of the project includes a register and login page. Once registered and logged in, users can ask questions and will get thuth in reply.
 
-# P
-
-
 # Project Setup
 
 1. Create a project and copy the files to this project.
